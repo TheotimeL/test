@@ -2,18 +2,15 @@
 name = "Tests"
 version = "0.1.0"
 description = "Default"
-authors = [
-    {name = "anonyme", email = "anonyme"},
-]
-dependencies = [
-    "gitpython>=3.1.43",
-    "toml>=0.10.2",
-    "my_package==0.0.0",
-]
+dependencies = [ "gitpython>=3.1.43", "toml>=0.10.2", "my_package==1.0.0",]
 requires-python = "==3.9.*"
 readme = "README.md"
-license = {text = "MIT"}
+[[project.authors]]
+name = "anonyme"
+email = "anonyme"
 
+[project.license]
+text = "MIT"
 
 [tool.pdm]
 distribution = false
